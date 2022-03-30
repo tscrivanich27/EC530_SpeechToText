@@ -72,4 +72,8 @@ Terminal should output the following:
 
   ![#4](https://user-images.githubusercontent.com/73702777/160896349-c4bbf4a5-0664-4f59-8953-c5bc81cd0e10.JPG)
 
-     
+## References
+
+* Pednekar, Abhishek. "Running Celery on Windows 10." _Code Disciples_, 22 Oct. 2019, https://www.codedisciples.in/celery-windows.html#:~:text=Celery%20is%20an%20asynchronous%20task%20queue%20that%20is,receive%20messages.%20Popular%20brokers%20are%20Redis%20and%20RabbitMQ. Accessed 30 March 2022.
+
+* Subramanian, Dhillip. "Easy Speech-to-Text with Python." _Towards Data Science_, 6 April 2020, https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426. Accessed 30 March 2022.
