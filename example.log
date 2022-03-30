@@ -1,5 +1,10 @@
 INFO:root:Running Unit Test #1
 INFO:root:Unit Test #1 Succeeded
+Results:
+Converting audio to text...
+hello how are you doing today
 INFO:root:Running Unit Test #2
 INFO:root:Unit Test #2 Succeeded
+Results:
+Sorry...please try again.
 INFO:root:Ran All Tests

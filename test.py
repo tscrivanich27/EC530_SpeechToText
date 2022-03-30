@@ -14,7 +14,7 @@ def test_single_valid_audio():
         # Use an assertion to check the result of speech_to_text function
         assert speech_to_text("Test #1.wav") == "Converting audio to text...\n" + "hello how are you doing today"
         # Print success message
-        logging.info("Unit Test #1 Succeeded")
+        logging.info("Unit Test #1 Succeeded\nResults:\n" + speech_to_text("Test #1.wav"))
     # If the assertion returns false...
     except (AssertionError):
         # Print error message
@@ -29,7 +29,7 @@ def test_single_invalid_audio():
         # Use an assertion to check the result of speech_to_text function
         assert speech_to_text("Test #2.wav") == "Sorry...please try again."
         # Print success message
-        logging.info("Unit Test #2 Succeeded")
+        logging.info("Unit Test #2 Succeeded\nResults:\n" + speech_to_text("Test #2.wav"))
     # If the assertion returns false...
     except (AssertionError):
          # Print error message
