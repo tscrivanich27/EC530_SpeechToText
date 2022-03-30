@@ -14,8 +14,6 @@ def speech_to_text(audio_file):
 
         try:
             text = r.recognize_google(audio_text)
-            print("Converting audio to text...")
-            print(text)
-            return (text)
+            return ("Converting audio to text...\n" + text)
         except:
             return("Sorry...please try again.")

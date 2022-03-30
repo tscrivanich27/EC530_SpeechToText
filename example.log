@@ -1,3 +1,5 @@
 INFO:root:Running Unit Test #1
 INFO:root:Unit Test #1 Succeeded
+INFO:root:Running Unit Test #2
+INFO:root:Unit Test #2 Succeeded
 INFO:root:Ran All Tests
