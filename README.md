@@ -1,1 +1,1 @@
-# Project #4: Speech to Text Module
+# EC 530 Project #4: Speech to Text Module
