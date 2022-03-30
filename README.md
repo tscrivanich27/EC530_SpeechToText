@@ -44,12 +44,32 @@ Below is an image of the SQL table:
 
 ## Unit Tests 
 
-1) Tests a single valid audio file -> Result: "hello how are you doing today"
-2) Tests a single invalid audio file -> Result: "Sorry...please try again."
+1) Tests a single valid audio file 
+2) Tests a single invalid audio file 
 
 ## User Instructions
 
-1) Clone repository to the local machine
-2) Initialize the Celery app using the command: celery -A app worker --loglevel=info
+1) Clone repository to local machine
+2) Start Redis server using the command: redis-server
 
 Terminal should output the following:
+
+![#1](https://user-images.githubusercontent.com/73702777/160893976-71f7e94b-328c-4f40-b970-b2a48edebb0d.JPG)
+
+4) Open a new terminal. Initialize the Celery app using the command: celery -A app worker --loglevel=info
+
+Terminal should output the following:
+
+![#2](https://user-images.githubusercontent.com/73702777/160894191-31bea1db-44a1-408a-9e71-70464a4c39de.JPG)
+
+5) Generate speech to text tasks
+
+* Option 1: Run test.py in a new terminal. Use command: python test.py. example.log will show results.
+  
+  ![#3](https://user-images.githubusercontent.com/73702777/160895103-ab5fb691-0611-49e3-9a5a-b451d7ac0e7d.JPG)
+  
+* Option 2: Open new terminal. Run python3. Type command: from app import speech_to_text. Type command: speech_to_text.delay(audio file name)
+
+  ![#4](https://user-images.githubusercontent.com/73702777/160896349-c4bbf4a5-0664-4f59-8953-c5bc81cd0e10.JPG)
+
+     
