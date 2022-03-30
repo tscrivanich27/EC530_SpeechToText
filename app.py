@@ -18,5 +18,4 @@ def speech_to_text(audio_file):
             print(text)
             return (text)
         except:
-            print("Sorry...please try again.")
-            return ("")
+            return("Sorry...please try again.")
