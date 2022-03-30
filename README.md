@@ -46,3 +46,10 @@ Below is an image of the SQL table:
 
 1) Tests a single valid audio file -> Result: "hello how are you doing today"
 2) Tests a single invalid audio file -> Result: "Sorry...please try again."
+
+## User Instructions
+
+1) Clone repository to the local machine
+2) Initialize the Celery app using the command: celery -A app worker --loglevel=info
+
+Terminal should output the following:
