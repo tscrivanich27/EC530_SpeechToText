@@ -1,1 +1,1 @@
-# EC530_SpeechToText
+# Project #4: Speech to Text Module
