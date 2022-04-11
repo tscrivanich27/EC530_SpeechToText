@@ -7,4 +7,15 @@ INFO:root:Running Unit Test #2
 INFO:root:Unit Test #2 Succeeded
 Results:
 Sorry...please try again.
+INFO:root:Running Unit Test #3
+INFO:root:Unit Test #3 Succeeded
+Results:
+Converting audio to text...
+hello my name is Thomas
+Converting audio to text...
+the temperature outside is 44 degrees Fahrenheit
+Converting audio to text...
+it is very sunny today it is a beautiful day
+Converting audio to text...
+I hope you are having a good day today
 INFO:root:Ran All Tests
