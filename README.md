@@ -45,7 +45,9 @@ Below is an image of the SQL table:
 ## Unit Tests 
 
 1) Tests a single valid audio file 
-2) Tests a single invalid audio file 
+2) Tests a single invalid audio file
+3) Tests the queue system by including four audio files to convert to text 
+4) Tests the queue system by including three valid audio files and one invalid audio file 
 
 ## User Instructions
 
